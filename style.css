@@ -1,0 +1,40 @@
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50% 50% 50%;
+    grid-row: 0;
+    margin-left:8%;
+    padding: 15px;
+}
+.menu{
+    background-color:rgb(3, 51, 66);
+    text-align: center; 
+    color:white;
+    height: 80px;
+    width: 100%;
+    padding: 16px;
+  }
+
+
+.obrazek{
+    width: 300px;
+    height: 250px;
+    padding: 2px;
+    
+}
+.color{
+    background-color:rgb(75, 71, 71);
+}
+.item1{
+    grid-column: 1/span 3;
+    grid-row: 3/span 10;
+    border: solid blue;
+    text-align: center;
+    background-color: white;
+}
+.item2{
+    grid-column: 4/span 3;
+    grid-row: 3/span 10;
+    text-align: center;
+    border: solid blue;
+    background-color: white;
+}
